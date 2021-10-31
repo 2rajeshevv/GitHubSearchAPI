@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="19H15" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="RepoCDModel" representedClassName="RepoCDModel" syncable="YES">
+        <attribute name="contributorsUrl" optional="YES" attributeType="URI"/>
+        <attribute name="createdAt" optional="YES" attributeType="String"/>
+        <attribute name="htmlUrl" optional="YES" attributeType="URI"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="ownerAvatar" optional="YES" attributeType="URI"/>
+        <attribute name="ownerHtmlUrl" optional="YES" attributeType="URI"/>
+        <attribute name="ownerId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="repoDescription" optional="YES" attributeType="String"/>
+        <attribute name="updatedAt" optional="YES" attributeType="String"/>
+        <attribute name="visibility" optional="YES" attributeType="String"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="id"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <elements>
+        <element name="RepoCDModel" positionX="-63" positionY="-18" width="128" height="208"/>
+    </elements>
+</model>
